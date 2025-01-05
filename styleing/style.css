@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home_page_container{
+    padding: 0;
+    width: 99.5%;
+    padding-right: 9px;
+    height: 99.9vh;
+    background-image: linear-gradient(0deg, rgba(26, 49, 55, 0.932), rgba(26, 49, 55, 0.932)), url("../images/workspace-with-office-supplies-top-view_144627-32574.jpg");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+.header_logo{
+    color: white;
+    width: 30%;
+    font-size: x-large;
+    margin-left: 10%;
+}
+.menu{
+    width: 50%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+a, select, button{
+    border : none;
+    color : white;
+    background-color: Transparent;
+    font-size: larger;
+    width: 15%;
+    height: 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1.5%;
+}
+button {
+    padding-top: 0%;
+}
+select{
+    padding-top: 0%;
+    height: 50px;
+}
+a:hover{
+    background-color: #007F67;
+}
+select:hover{
+    background-color: #007F67;
+}
+svg{
+    margin: 15px;
+}
+header{
+    color: white;
+}
+header{
+    padding-top: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.hello_part{
+    width: 55%;
+}
+#portfolio_button{
+    width: 180px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.24);
+}
+#portfolio_button:hover{
+    background-color: #007F67;
+}
+#hire_me, #download_cv{
+    background-color: #007F67;
+    width: 180px;
+    margin-right: 10px;
+    height: 50px;
+}
+.my_biography_part{
+    width: 100%;
+    height: 100vh;
+    color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.my_biography > div > button{
+    background-color: #007F67;
+}
+
+img{
+    width: 20%;
+    height: auto;
+}
+.my_biography{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h4{
+    font-weight: normal;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.follow_me{
+    display: flex;
+    gap : 1px;
+}
+.follow_me > h3{
+    font-size: x-large;
+}
