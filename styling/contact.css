@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+input, textarea{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #007F67;
+    outline: none;
+}
+button{
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: #007F67;
+    border-radius: 15px;
+    border: none;
+}
+textarea{
+    height: 200px;
+}
+.img_div{
+    background-color: #007F67;
+    width: 350px;
+    border-radius: 9px;
+}
+.contact_form > form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+    padding-right: 100px;
+    margin-left: -70px;
+}
+
+.contact_container{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    right: 30%;
+    bottom: 25%;
+    border: 1px solid #007F67;
+    border-radius: 10px;
+}
+img{
+    width: 300px;
+    height: auto;
+    margin-left: 7%;
+    margin-top: 4.1%;
+}
+label{
+    color: gray;
+    font-size: 13pt;
+    margin-left: -150px;
+}
+.follow_me{
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    right: 50%;
+}

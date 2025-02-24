@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.home_page_container{
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(26, 49, 55, 0.932), rgba(26, 49, 55, 0.932)), url("../images/workspace-with-office-supplies-top-view_144627-32574.jpg");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    color: white;
+    width: 30%;
+    font-size: x-large;
+    margin-left: 10%;
+}
+.menu{
+    width: 60%;
+    margin-right: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.menu>a, select, button{
+    border : none;
+    color : white;
+    background-color: Transparent;
+    font-size: larger;
+    width: fit-content;
+    height: 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+button {
+    padding-top: 0%;
+}
+button:hover, a:hover,select:hover {
+    cursor: pointer;
+}
+select{
+    padding-top: 0%;
+    height: 48px;
+}
+
+select:hover , .menu>a:hover{
+    background-color: #007F67;
+    cursor: pointer;
+}
+
+svg{
+    margin: 15px;
+}
+
+.me_in_short{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.hello_part{
+    width: 55%;
+    padding-left: 7%;
+}
+
+
+#my_img  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    max-width: 100%;
+}
+button > a {
+    text-decoration: none;
+    color: inherit;
+}
+#my_img  > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.me_img{
+    width: 1080px;
+    height: 800px;
+    x: -50;
+    y: -155;
+}
+#portfolio_button{
+    width: 180px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: 1px solid rgb(150, 150, 150);
+}
+#portfolio_button:hover{
+    background-color: #007F67;
+}
+#hire_me, #download_cv{
+    background-color: #007F67;
+    width: 180px;
+    margin-right: 10px;
+    height: 50px;
+}
+.my_biography_part{
+    width: 100%;
+    height: 100vh;
+    color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.my_biography > div > button{
+    background-color: #007F67;
+}
+
+img{
+    width: 20%;
+    height: auto;
+}
+.my_biography{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: -50px;
+}
+.hello_part>h4{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.hello_part>h1{
+    margin-top: -65px;
+    margin-bottom: -5px;
+    font-size: 90px;
+    font-family: 'Poppins', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 3px white;
+}
+.hello_part>p{
+    font-size: larger;
+    font-weight: 500;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.follow_me{
+    display: flex;
+    gap : 1px;
+    align-items: center;
+}
+.follow_me > h3{
+    font-size: x-large;
+}
+.my_biography_part > img {
+    margin-top: 70px;
+    width: 550px;
+    height: auto;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1.1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+    animation: tracking-in-expand 1.1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+}
+40% {
+    opacity: 0.6;
+}
+100% {
+    opacity: 1;
+}
+}
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+#hire_me:hover{
+    -webkit-animation: wobble-hor-bottom 1s both;
+	        animation: wobble-hor-bottom 1s both;
+}
+
+ @-webkit-keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  
+
+svg>image{
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header_logo{
+        width: 50%;
+        margin-left: 0%;
+    }
+    .menu{
+        width: 50%;
+        margin-right: 0%;
+        flex-direction: column;
+    } 
+    .me_in_short{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .hello_part{
+        width: 60%;
+        padding-left: 5%;
+    }
+    #my_img  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px 0;
+        max-width: 100%;
+    }
+    .me_img{
+        width: 900px;
+        height: 750px;
+        x: 50;
+        y: -150;
+    }
+    #portfolio_button{
+        width: 150px;
+        height: 35px;
+    }
+    #hire_me, #download_cv{
+        width: 150px;
+        height: 35px;
+    }
+    .my_biography_part{
+        width: 100%;
+        height: 100vh;
+        color: rgb(17, 17, 17);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .my_biography > div > button{
+        background-color: #007F67;
+    }
+    
+    img{
+        width: 20%;
+        height: auto;
+    }
+    .my_biography{
+        width: 60%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: -50px;
+    }
+    .hello_part>h4{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .hello_part>h1{
+        margin-top: -15px;
+        margin-bottom: -5px;
+        font-size: 50px;
+    }
+    .hello_part>p{
+        font-size: large;
+        font-weight: 500;
+    }
+    .info{
+        display: flex;
+        justify-content: space-between;
+    }
+    .follow_me{
+        display: flex;
+        gap : 1px;
+        align-items: center;
+    }
+    .follow_me > h3{
+        font-size: x-large;
+    }
+    .my_biography_part > img {
+        margin-top: 31%;
+        width: 400px;
+        height: auto;
+    }
+
+}
